@@ -1,0 +1,169 @@
+h1 {
+  text-align: center;
+  color: rgb(218, 104, 11);
+  background-color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 90px;
+  font-family: Barrio;
+}
+body {
+  background-image: url("cod-zombies-black-ops-3-peaked-activsion-call-of-duty-cold-war-vanguard-zombies.jpg");
+  background-size: 200% 300%; /* Cobrir toda a largura e altura da tela */
+  background-repeat: no-repeat;
+  background-position: center center; /* Centralizar a imagem na tela */
+  margin: 0;
+  padding: 0;
+}
+ul {
+  text-align: top;
+  color: rgb(0, 0, 0);
+  background-color: rgb(218, 104, 11);
+  font-weight: bold;
+  font-style: italic;
+  display: center;
+}
+/*aqui usei o chatgpt e o w3c para corrigir uns erros apenas pra não ficar imperfeito*/
+.imagem-texto-container {
+  text-align: center; /* Alinha o texto e a imagem no centro */
+}
+
+.imagemgreenrunbo3 {
+
+  width: 400px;
+  height: auto;
+  padding: 30px;
+  margin-left: 0px; /* Empurra a imagem para a direita */
+  margin-right: 100px; /* Empurra a imagem para a esquerda */
+  display: relative;
+
+}
+.descricao1 {
+  text-align: center;
+  margin: 10px;
+  color: rgb(218, 104, 11);
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.dropdown-{
+  position: relative;
+  display: inline-block;
+}
+/* Sidenav fixo, usei o w2c para usar isto. */
+.sidenav {
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(218, 104, 11);
+  display: block;
+  border: none;
+  background: black;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 20px;
+  font-size: 20px; 
+  padding: 0px 10px;
+}
+
+.active {
+  background-color: rgb(218, 104, 11);
+  color: white;
+}
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 20px;
+}
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  position: relative;
+  background-color: #ff6308;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #d14d00;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+.greenruncz {
+    content: "";
+    background: #d14d00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-left: 100px;
+  text-align: center;
+  color: rgb(224, 78, 11);
+  font-weight: bold;
+  font-size: 50px;
+
+}

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Barrio;
+    src: url("")
+  }
+  
+  h1 {
+    font-family: Barrio;
+  }
+
+body {
+    background-image: url("download.jpeg");
+    size: 250px;
+    background-position: fill;
+  }
+  .imagemcod2 {
+    size: 200px;
+    background-size: fill;
+    
+  }
+  ul {
+    text-align: top;
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 104, 11);
+    font-weight: bold;
+    font-style: italic;
+    display: center;
+
+}
+  .dropdown-{
+    position: relative;
+    display: inline-block;
+  }
+  /* Fixed sidenav, full height */
+  .sidenav {
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(218, 104, 11);
+    display: block;
+    border: none;
+    background: black;
+    width:100%;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 240px; /* Same as the width of the sidenav */
+    font-size: 200px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 20px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .button {
+    position: relative;
+    background-color: #ff6308;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #d14d00;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
